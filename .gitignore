@@ -1,0 +1,55 @@
+# Variáveis de ambiente (NUNCA comitar)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dados do Open WebUI (conversas, usuários)
+openwebui-data/
+*-data/
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backups locais
+*.bak
+*.backup
+backups/
+
+# Secrets (reforço explícito)
+*secret*
+*token*
+*apikey*
+!*.example
+!*example*
+
+# Arquivos temporários de teste
+tmp/
+scratch/
+sandbox/
+
+# Dados sensíveis exportados
+exports/
+conversations-export/
